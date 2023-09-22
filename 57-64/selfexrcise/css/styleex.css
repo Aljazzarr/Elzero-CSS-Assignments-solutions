@@ -1,0 +1,80 @@
+
+.container {
+    width: 600px;
+    height: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #eee;
+    display: grid;
+    gap:2px 2px;
+    grid-template-columns:repeat(5,1fr);
+    grid-template-rows: repeat(4,1fr);
+    
+ 
+}
+
+
+.item-one { 
+    grid-row-start:1 ;
+    grid-column-start: 1;
+    grid-row-end:4 ;
+    grid-column-end: 3;
+    background-color: beige;
+    border: 1px solid black;
+    text-align: center;
+    font-weight: bold;
+}
+.item-tow {
+    background-color: beige;
+    border: 1px solid black;
+    text-align: center;
+    font-weight: bold;
+}
+.item-three {
+    background-color: beige;
+    border: 1px solid black;
+    text-align: center;
+    font-weight: bold;
+}
+.item-four {
+    background-color: beige;
+    border: 1px solid black;
+    text-align: center;
+    font-weight: bold;
+}
+.item-five {
+    background-color: beige;
+    border: 1px solid black;
+    text-align: center;
+    font-weight: bold;
+}
+.item-six {
+    background-color: beige;
+    border: 1px solid black;
+    text-align: center;
+    font-weight: bold;
+}
+.item-seven {
+    background-color: beige;
+    border: 1px solid black;
+    text-align: center;
+    font-weight: bold;
+}
+.item-eight {
+    background-color: beige;
+    border: 1px solid black;
+    text-align: center;
+    font-weight: bold;
+}
+.item-nine {
+    background-color: beige;
+    border: 1px solid black;
+    text-align: center;
+    font-weight: bold;
+}
+.item-ten {
+    background-color: beige;
+    border: 1px solid black;
+    text-align: center;
+    font-weight: bold;
+}

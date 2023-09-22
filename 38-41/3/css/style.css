@@ -1,0 +1,59 @@
+.parent {
+    width: 550px;
+    height: 600px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    margin-left: -275px;
+    background-color: aliceblue;
+    float: left;
+
+}
+.vline {
+    position: absolute;
+    width: 1px;
+    height: 80%;
+    top:5%;
+    margin-top: px;
+    border: 1px black solid;
+    left: 50%;
+    margin-left: -.5px;
+}
+.box {
+    position: relative;
+    top: 50px;
+    left: 37px;
+    width: 200px;
+    height:     360px;
+    background-color: aquamarine;
+    float: left;
+    margin-right: 74px;
+}
+.plan {
+    width: 150px;
+    height: 20px;
+    position: absolute;
+    top: 20px;
+    left:50%;
+    margin-left:-85px; 
+    background-color: blanchedalmond;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20%;
+}
+.price {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    margin-left:-70px; 
+    margin-top: -50px;
+    background-color: blanchedalmond;
+    text-align: center;
+    border-radius: 50%;
+    padding: 20px;
+    line-height: 99px;
+    font-size: 51px;
+}
+

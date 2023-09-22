@@ -1,0 +1,28 @@
+ul {
+    list-style: none;
+    background: gainsboro;
+    width: 400px;
+    padding-bottom: 20px;
+    margin: auto auto;
+    margin-top: 20px;
+}
+span {
+    font-size: 1em;
+    font-weight: bold;
+    line-height: 25px;
+}
+
+ol .li2 {
+    background: white;
+    margin: 20px;
+    height: 30px;
+    font-size: 1em;
+    line-height: 25px;
+}
+.ol-tow {
+    list-style-type:upper-roman ;
+}
+.ol-three {
+    list-style-type: circle;
+}
+

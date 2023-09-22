@@ -1,0 +1,22 @@
+div{
+    width: 400px;
+    height: 400px;
+    background-color: azure;
+    margin-top: 10px;
+    background-image: url(../../2/images/css-assignment-5-8.jpg);
+}
+.assign-3-shape-1{
+    background-repeat: no-repeat;
+}
+.assign-3-shape-2{
+    background-repeat: repeat-y;
+    background-position: right;
+}
+.assign-3-shape-3{
+    background-repeat: repeat-x;
+    background-position: bottom;
+}
+.assign-3-shape-4{
+    background-repeat: repeat;
+    background-position: bottom;
+}

@@ -1,0 +1,36 @@
+div {
+    width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color:#eee;
+    height: 100px;
+    font-size: 50px;
+    text-align: center;
+    line-height: 85PX;
+    letter-spacing: 5px;
+    font-weight: bold;
+    position: relative;
+}
+div::first-letter {
+    color: red;
+}
+div::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    margin: -10px;
+    border-radius: inherit;
+    background-image: linear-gradient(to right,
+    tomato 20%,
+    dodgerblue 20%,
+    dodgerblue 40%,
+    green 40%,
+    green 60%,
+    crimson 60%,
+    crimson 80%,
+    slateblue 80%);
+  }

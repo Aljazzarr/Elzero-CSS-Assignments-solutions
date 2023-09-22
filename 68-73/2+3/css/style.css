@@ -1,0 +1,33 @@
+h1 {
+    width: 150px;
+    height: 80px;
+    margin: 200px auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: darkcyan;
+    color: white;
+    letter-spacing: 6px;
+    position: relative;
+    padding-left: 30px;
+}
+h1::after {
+    background-color: darkcyan;
+    content: "";
+    height: 80px;
+    width: 30px;
+    position: absolute;
+    transform: skewX(19.12deg);
+    margin-left: -160px;
+    outline: 5px white solid;
+}
+/* .class {
+    matrix(3, 0.2679, 0, 3, 20, 100);
+  } */
+
+  /* 
+  solution:
+  transform:scal(3,3);
+  transform:skw(0.2679,0);
+  transform: translate(20,100);
+  */

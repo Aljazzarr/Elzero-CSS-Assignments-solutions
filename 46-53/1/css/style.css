@@ -1,0 +1,12 @@
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: transparent solid 1px;
+    width: 100px;
+    height: 100px;
+    margin: 300px auto;
+    border-radius: 50%;
+    box-shadow:#2196f3 -9px -1px 0 0, #ff5722 12px 1px 1px;
+    background-color: aliceblue;
+}

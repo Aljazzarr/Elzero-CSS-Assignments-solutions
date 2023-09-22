@@ -1,0 +1,10 @@
+div {
+    background-color:  brown;
+    font-size: 40px;
+    color: white;
+    margin-top: 20px;
+    width: 400px;
+    height:100px;
+    box-sizing: border-box;
+    overflow: hidden;
+}

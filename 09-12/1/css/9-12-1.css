@@ -1,0 +1,22 @@
+div {
+    font-family: Arial, Helvetica, sans-serif;
+    display:inline-block;
+    outline: black 20px solid;
+    text-align: center;
+    font-size: 30px;
+    margin-left: 70px;
+    margin-top: 20px;
+    padding: 50px 70px;
+}
+
+.shape1 {
+    border: red solid 20px;
+}
+.shape2 {
+    border: 20px solid ; 
+    border-color: green blue; 
+}
+.shape3{
+    border: 20px dashed ;
+    border-color: red green blue yellow;
+}

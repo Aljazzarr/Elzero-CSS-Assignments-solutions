@@ -1,0 +1,29 @@
+div {
+    height: 200px;
+    width: 200px;
+    margin: 50vh auto;
+    background-color: slategray;
+    position: relative;
+    border-bottom: black 5px solid;
+}
+div::before {
+    content: "";
+    height: 140px;
+    width: 140px;
+    background-color: black;
+    outline: 3px white solid;
+    position: absolute;
+    margin-top: -71px;
+    transform: rotate(45deg);
+    margin-left: 29px;
+}
+div::after {
+    content: "ELZERO";   
+    position: absolute;
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    font-family: Arial, Helvetica;
+    
+}

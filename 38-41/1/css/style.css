@@ -1,0 +1,28 @@
+
+div {
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    margin-top: 300px;
+    display: inline-block;
+    left: 50%;
+    margin-left: 20px;
+    counter-increment: elements;
+    box-shadow: -12px -8px 0 0 #e91e63,12px 9px 0 0 #2196f3 ;
+    border-radius: 50%;
+ 
+}
+div::after {
+    content: counter(elements) ;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(1, 0, 0);
+    position: absolute;
+    top:-10px;
+    left: 50%;
+    margin-left: -10px;
+    color: white;
+    text-align: center;
+    border-radius: 50%;
+}

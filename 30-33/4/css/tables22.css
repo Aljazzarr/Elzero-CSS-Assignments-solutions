@@ -1,0 +1,39 @@
+table {
+    width: 500px;
+    font-family: Arial, Helvetica;
+    
+}
+table thead td {
+    background-color: black;
+    color: #eee;
+    font-weight: bold;
+    
+}
+
+table td {
+    padding: 15px;
+    background-color: #eee;
+    text-align: center;
+    white-space: nowrap;
+    
+    
+
+}
+
+img {
+    width: 100px;
+    height: 130px;
+}
+.view {
+    background-color: #03a9f4;
+    padding: 5px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.delete {
+    background-color: #e91e63;
+    padding: 5px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+
+}

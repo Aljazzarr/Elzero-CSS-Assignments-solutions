@@ -1,0 +1,17 @@
+
+div {
+    width: 500px;
+    padding: 20px;
+    background-color: blueviolet;
+    margin:auto;
+}
+.shape-2{
+    background-color: blueviolet;
+    opacity: .5;
+    margin-top: 10px;
+}
+.shape-3{
+    background-color: blueviolet;
+    opacity: .1;
+    margin-top: 10px;
+}

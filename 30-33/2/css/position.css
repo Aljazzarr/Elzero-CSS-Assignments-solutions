@@ -1,0 +1,75 @@
+/* html {
+height: 100%;
+
+}
+body {
+    max-height: 100%;
+} */    
+.parent {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 500px;
+    height: 350px;
+    border: 2px solid greenyellow;
+    background-color: gray;
+    margin-left: -252px;
+    margin-top: -127px ;
+    color: aliceblue;
+    font-size: 20px;
+    overflow: visible;
+    text-overflow: ellipsis;
+    padding: 3px;
+    text-align: center;
+    
+    
+}
+.topleft {
+    position: absolute;
+    top:0px;
+    left:0px;
+    background-color: red;
+    padding: 20px;
+    height: 10px;
+    width: 10px;
+    color: white;
+    margin-left: -25px;
+    margin-top: -25px;
+}
+
+.topright {
+    position: absolute;
+    top:0px;
+    right:0px;
+    background-color: red;
+    padding: 20px;
+    height: 10px;
+    width: 10px;
+    color: white;
+    margin-right:-25px;
+    margin-top: -25px;
+}
+.bottomright {
+    position: absolute;
+    bottom:0px;
+    right:0px;
+    background-color: red;
+    padding: 20px;
+    height: 10px;
+    width: 10px;
+    color: white;
+    margin-right:-25px;
+    margin-bottom: -25px;
+}
+.bottomleft {
+    position: absolute;
+    bottom:0px;
+    left:0px;
+    background-color: red;
+    padding: 20px;
+    height: 10px;
+    width: 10px;
+    color: white;
+    margin-left:-25px;
+    margin-bottom: -25px;
+}

@@ -1,0 +1,35 @@
+h1 {
+    width: 150px;
+    height: 50px;
+    background-color: orangered;
+    margin: 200px auto;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+h1::before {
+    content: "";
+    background-color:orangered;
+    height: 50px;
+    width: 150px;
+    position: absolute;
+    left: 0;
+    transform: skew(1deg,10deg);
+    z-index: -1;
+}
+h1::after {
+    content: "";
+    background-color:orangered;
+    height: 50px;
+    width: 150px;
+    position: absolute;
+    left: 0;
+    transform: skew(1deg,-10deg);
+    z-index: -2;
+}
+
+
+
+
+
+

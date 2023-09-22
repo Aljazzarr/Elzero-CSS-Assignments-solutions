@@ -1,0 +1,7 @@
+h1 {
+    margin-left: 10%;
+    text-transform: capitalize;
+    font-size: 100px;
+    text-shadow: 3px 2px 0 tomato , 6px 4px 0 #6779b3 ,10px 6px 0 #9e2bb1;
+    font-family: Arial, Helvetica;
+}

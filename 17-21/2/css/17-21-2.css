@@ -1,0 +1,14 @@
+p{
+    font-size: 50px;
+    font-family: Arial, Helvetica;
+    margin: 50px 30px ;
+}
+.one {
+    text-transform: uppercase;
+}
+.tow {
+    text-transform: capitalize;
+}
+.three {
+    text-transform: lowercase;
+}
